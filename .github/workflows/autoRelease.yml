@@ -48,11 +48,12 @@ jobs:
           for i in */; do zip -r "${i%/}.zip" "$i"; done
           
       - name: Make tag
+        run: echo "CURRENT_TAG=$(date +%Y.%m.%d)" >> $GITHUB_ENV
         id: tag_version
         uses: mathieudutour/github-tag-action@v5.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          custom_tag: $(date +%Y.%m.%d)
+          custom_tag: ${{ env.CURRENT_TAG }}
           tag_prefix: ""
 
       - name: Release
