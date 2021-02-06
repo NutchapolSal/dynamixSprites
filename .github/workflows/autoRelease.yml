@@ -32,6 +32,9 @@ jobs:
           custom_tag: ${{ env.CURRENT_TAG }}
           tag_prefix: ""
           
+      - name: are the environment variables there
+        run: echo $CURRENT_TAG; echo $TAG_REFERENCE
+          
       - name: Checkout code
         uses: actions/checkout@v2
 
