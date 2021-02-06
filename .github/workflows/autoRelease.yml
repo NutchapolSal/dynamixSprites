@@ -52,6 +52,6 @@ jobs:
         with:
           files: |
             *.zip
-          tag_name: ${{date +%Y.%m.%d}}
+          tag_name: $(date +%Y.%m.%d)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
