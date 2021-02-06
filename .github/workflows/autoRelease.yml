@@ -51,5 +51,6 @@ jobs:
           files: |
             *.zip
           tag_name: ${{ env.TAG_REFERENCE }}
+          name: ${{ env.CURRENT_TAG }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
