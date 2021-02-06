@@ -21,8 +21,11 @@ jobs:
     name: stuff
     runs-on: ubuntu-latest
     steps:
-      - name: Make tag (1)
-        run: echo "CURRENT_TAG=$(date +%Y.%m.%d)" >> $GITHUB_ENV; echo "TAG_REFERENCE=refs/tags/$CURRENT_TAG" >> $GITHUB_ENV
+      - name: Make tag (1.1)
+        run: echo "CURRENT_TAG=$(date +%Y.%m.%d)" >> $GITHUB_ENV
+      
+      - name: Make tag (1.2)
+        run: echo "TAG_REFERENCE=refs/tags/$CURRENT_TAG" >> $GITHUB_ENV
         
       - name: Make tag (2)
         id: tag_version
