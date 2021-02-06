@@ -46,12 +46,20 @@ jobs:
       - name: Build project # This would actually build your project, using zip for an example artifact
         run: |
           for i in */; do zip -r "${i%/}.zip" "$i"; done
+          
+      - name: Make tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v5.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          custom_tag: $(date +%Y.%m.%d)
+          tag_prefix: ""
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: |
             *.zip
-          tag_name: $(date +%Y.%m.%d)
+          tag_name: ${{ steps.tag_version.new_tag }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
