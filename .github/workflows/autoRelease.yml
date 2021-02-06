@@ -44,5 +44,6 @@ jobs:
         with:
           files: |
             *.zip
+          tag_name: ${{ env.TAG_REFERENCE }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
