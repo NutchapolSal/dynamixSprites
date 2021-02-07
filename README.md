@@ -4,7 +4,7 @@ This is from the assets Dynamix downloads using "Download all data".
 
 ## Downloading
 
-Download a single category or the whole thing(source code) in the latest [![release](https://img.shields.io/github/v/release/NutchapolSal/dynamixSprites)](https://github.com/NutchapolSal/dynamixSprites/releases)
+Download a single folder or the whole thing(source code) in the latest [![release](https://img.shields.io/github/v/release/NutchapolSal/dynamixSprites)](https://github.com/NutchapolSal/dynamixSprites/releases)
 
 ## The Folders
 
