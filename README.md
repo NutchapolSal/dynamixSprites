@@ -10,7 +10,7 @@ Download a single folder or the whole thing(source code) in the latest [![releas
 
 Folders are named according to the internal asset containers. Some song titles may be romanized or translated so search throughly before making an issue.
 
-Sprites files names are kept as is.
+Sprites files names are kept as is. Some files have the same name internally so a random number is suffixed to prevent name collisions.
 
 ### Avator & Char
 
