@@ -64,7 +64,7 @@ For the store bought songs, The devs only prefixed the names of pack 1 - pack 10
 
 ### Front
 
-Contains "frontground"(??) parts (Middle row in parts panel).
+Contains "frontground" parts (Middle row in parts panel).
 
 ### Parts & Title
 
