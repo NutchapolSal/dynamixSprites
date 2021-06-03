@@ -87,3 +87,12 @@ hints:
 - APK just has the gameplay, ui, etc. The rest is downloaded separately (including non-event songs).
 - `/sdcard/Android/data/com.c4cat.dynamix/files/UnityCache/Shared`
 - use [AssetStudio](https://github.com/Perfare/AssetStudio)
+
+### the better way
+
+- run wireshark with nox, look for "dynamix" dns query
+- look for the file with version number
+- get the "Android" asset bundle manifest
+- get the list of all bundles inside that with asset studio
+- ??
+- profit
