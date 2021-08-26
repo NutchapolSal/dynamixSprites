@@ -32,7 +32,7 @@ Same deal with `avator` & `char`
 
 Contains background images for the songs.
 
-For the store bought songs, The devs only prefixed the names of pack 1 - pack 10 sprite files, and just pack 3 - pack 6 & pack 10 asset containers. Essentially it was organized up to pack 10, then the rest is mixed in with the other files. But I've already organized them into pack 1 - pack 25 so you don't have to.
+For the store bought songs, The devs only prefixed the names of pack 1 - pack 10 sprite files, and just pack 3 - pack 6 & pack 10 asset containers. Essentially it was organized up to pack 10, then the rest is mixed in with the other files. But I've already organized them into pack 1 - pack 26 so you don't have to.
 
 |pack no.|store name|
 |---|---|
@@ -61,6 +61,7 @@ For the store bought songs, The devs only prefixed the names of pack 1 - pack 10
 |23|BilliumMoto|
 |24|Intruders|
 |25|Crossing Delta|
+|26|RAVON Collab Pack #1|
 
 ### Front
 
