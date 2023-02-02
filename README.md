@@ -63,6 +63,7 @@ For the store bought songs, The devs only prefixed the names of pack 1 - pack 10
 |25|Crossing Delta|
 |26|RAVON Collab Pack #1|
 |27|RAVON Collab Pack #2|
+|28|Hidden Gems|
 
 ### Front
 
